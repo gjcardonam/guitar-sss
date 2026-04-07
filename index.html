@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<title>Guitarras SSS</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{
+  font-family:-apple-system,BlinkMacSystemFont,'SF Pro Text',system-ui,sans-serif;
+  background:#111;color:#e0e0e0;
+  padding:12px;
+  padding-top:env(safe-area-inset-top,12px);
+  -webkit-text-size-adjust:100%;
+}
+header{text-align:center;padding:16px 8px 12px;}
+header h1{font-size:1.4rem;color:#fff;}
+header p{color:#777;font-size:.75rem;margin-top:4px;}
+.list{max-width:500px;margin:0 auto;display:flex;flex-direction:column;}
+
+.c{
+  display:flex;
+  background:#1a1a1a;
+  border-radius:10px;
+  margin-bottom:10px;
+  border:1px solid #252525;
+  overflow:hidden;
+  min-height:0;
+}
+.img{
+  flex:0 0 110px;
+  background:#fff;
+  display:flex;align-items:center;justify-content:center;
+  padding:8px;
+}
+.img img{
+  width:100%;height:100%;
+  max-height:140px;
+  object-fit:contain;
+}
+.info{
+  flex:1;
+  padding:10px 12px;
+  display:flex;flex-direction:column;
+  justify-content:center;
+  min-width:0;
+}
+.top{
+  display:flex;justify-content:space-between;align-items:center;
+  margin-bottom:3px;
+}
+.brand{
+  font-size:.65rem;text-transform:uppercase;letter-spacing:1.5px;
+  color:#f0a500;font-weight:700;
+}
+.av,.unav{font-size:.6rem;padding:2px 6px;border-radius:10px;font-weight:500;}
+.av{background:#1a3a1a;color:#4caf50;}
+.unav{background:#3a1a1a;color:#f44336;}
+h2{
+  font-size:.85rem;color:#fff;line-height:1.25;
+  margin-bottom:4px;
+  display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;
+}
+.pr{margin-bottom:6px;}
+.pr{font-size:1rem;font-weight:700;color:#4caf50;}
+.old{font-size:.75rem;color:#666;text-decoration:line-through;margin-left:6px;}
+details{margin-bottom:6px;}
+summary{
+  cursor:pointer;color:#888;font-size:.7rem;
+  padding:2px 0;user-select:none;
+}
+details p{
+  color:#999;font-size:.72rem;line-height:1.4;
+  margin-top:4px;padding:6px 8px;
+  background:#111;border-radius:6px;
+}
+.btns{display:flex;gap:6px;}
+.btn{
+  flex:1;
+  display:flex;align-items:center;justify-content:center;
+  padding:7px 0;
+  text-decoration:none;
+  border-radius:6px;
+  font-weight:600;font-size:.75rem;
+  text-align:center;
+  transition:opacity .15s;
+}
+.btn:active{opacity:.7;}
+.tms{background:#f0a500;color:#000;}
+.yt{background:#cc0000;color:#fff;}
+
+@media(min-width:700px){
+  .list{
+    max-width:1100px;
+    flex-direction:row;flex-wrap:wrap;gap:10px;
+  }
+  .c{
+    width:calc(50% - 5px);
+    margin-bottom:0;
+  }
+  .img{flex:0 0 120px;}
+  .img img{max-height:150px;}
+  h2{font-size:.88rem;}
+  .pr{font-size:1rem;}
+}
+@media(min-width:1200px){
+  .list{max-width:1500px;gap:12px;}
+  .c{width:calc(33.333% - 8px);}
+  .img{flex:0 0 130px;}
+}
+</style>
+</head>
+<body>
+<header>
+  <h1>Guitarras SSS</h1>
+  <p>22 guitarras &middot; TMS Music &middot; mas cara a mas barata</p>
+</header>
+<div class="list">
+<div class="c">
+  <div class="img"><img src="https://cdn.shopify.com/s/files/1/0512/9116/0767/files/0119162796_fen_ins_frt_1_rl.png?v=1737660736" alt="" loading="lazy"></div>
+  <div class="info">
+    <div class="top"><span class="brand">Fender</span><span class="av">Disponible</span></div>
+    <h2>Fender American ULTRAII STRAT Zurda 0119162796</h2>
+    <div class="pr">$12,255,000 <span class="old">$12,900,000</span></div>
+    <details><summary>Descripcion</summary><p>Guitarra Electrica Fender American ULTRAII STRAT Zurda 0119162796 Características Cuerpo de fresno seleccionado con contornos Ultra y talón del mástil esculpido Mástil de arce aserrado en cuartos con perfil &quot;Modern D&quot; Diapasón de ébano o arce quartersawn con radio compuesto de 10&quot;-14&quot; (25,40 cm -...</p></details>
+    <div class="btns">
+      <a href="https://tmsmusic.co/products/guitarra-electrica-fender-american-ultraii-strat-0119162796" target="_blank" class="btn tms">Ver en TMS</a>
+      <a href="https://www.youtube.com/watch?v=M17APESxfpE" target="_blank" class="btn yt">&#9654; Video</a>
+    </div>
+  </div>
+</div>
+<div class="c">
+  <div class="img"><img src="https://cdn.shopify.com/s/files/1/0512/9116/0767/files/0147030888_fen_ins_frt_1_rr.png?v=1740512061" alt="" loading="lazy"></div>
+  <div class="info">
+    <div class="top"><span class="brand">Fender</span><span class="av">Disponible</span></div>
+    <h2>Fender Stratocaster Antigua Vintera II 70 Aniversario 0147030888</h2>
+    <div class="pr">$8,540,500 <span class="old">$8,990,000</span></div>
+    <details><summary>Descripcion</summary><p>Guitarra Eléctrica Fender Stratocaster Antigua Vintera II 70 Aniversario 0147030888 MATERIAL MÁSTIL Arce, &quot;U&quot; de los años 70 ACABADO MÁSTIL Uretano brillante, 3 pernos RADIO DIAPASÓN 9,5&quot; (241 mm) TRASTES 21 ALMA Estilo bala TUERCA PARA CUERDAS Hueso sintético CEJILLA Hueso sintético, 1,650&quot; (42...</p></details>
+    <div class="btns">
+      <a href="https://tmsmusic.co/products/guitarra-electrica-fender-70th-anv-antigua-0147030888" target="_blank" class="btn tms">Ver en TMS</a>
+      <a href="https://www.youtube.com/watch?v=zO0M6kCgyhM" target="_blank" class="btn yt">&#9654; Video</a>
+    </div>
+  </div>
+</div>
+<div class="c">
+  <div class="img"><img src="https://cdn.shopify.com/s/files/1/0512/9116/0767/products/guitarra-electrica-fender-american-performer-stratocaster-r-rosewood-fingerboard-arctic-white-0114910380-the-music-site-1.png?v=1696263037" alt="" loading="lazy"></div>
+  <div class="info">
+    <div class="top"><span class="brand">Fender</span><span class="av">Disponible</span></div>
+    <h2>Fender American PERF ST WHT 0114910380</h2>
+    <div class="pr">$7,290,000 </div>
+    <details><summary>Descripcion</summary><p>Descripción Nacida en Corona, California, la American Performer Stratocaster brinda el tono excepcional y la sensación que esperas de una autentica Fender, con nuevas mejoras que hacen aún más inspiradora. Especificaciones del producto Nombre del modelo American Performer Stratocaster®, diapasón de...</p></details>
+    <div class="btns">
+      <a href="https://tmsmusic.co/products/guitarra-elec-fender-affinity-strat-cpo-0310600596-3109" target="_blank" class="btn tms">Ver en TMS</a>
+      <a href="https://www.youtube.com/watch?v=sxX9etCfNHM" target="_blank" class="btn yt">&#9654; Video</a>
+    </div>
+  </div>
+</div>
+<div class="c">
+  <div class="img"><img src="https://cdn.shopify.com/s/files/1/0512/9116/0767/products/guitarra-electrica-fender-player-plus-stratocaster-r-maple-fingerboard-tequila-sunrise-0147312387-the-music-site-1.png?v=1696267113" alt="" loading="lazy"></div>
+  <div class="info">
+    <div class="top"><span class="brand">Fender</span><span class="av">Disponible</span></div>
+    <h2>Fender Player Plus Stratocaster, Maple Fingerboard, Tequila Sunrise 0147312387</h2>
+    <div class="pr">$6,614,100 <span class="old">$7,349,000</span></div>
+    <details><summary>Descripcion</summary><p>Fusionando el diseño clásico de Fender® con características centradas en el guitarrista y emocionantes nuevos acabados, la Player Plus Stratocaster® ofrece una excelente comodidad y un estilo inconfundible. .En el corazón de esta Strat® hay un trío de pastillas Player Plus Noiseless ™: brillantes y...</p></details>
+    <div class="btns">
+      <a href="https://tmsmusic.co/products/guitarra-elec-fender-ply-plus-strat-mn-0147312387" target="_blank" class="btn tms">Ver en TMS</a>
+      <a href="https://www.youtube.com/watch?v=79jkDeKsAYI" target="_blank" class="btn yt">&#9654; Video</a>
+    </div>
+  </div>
+</div>
+<div class="c">
+  <div class="img"><img src="https://cdn.shopify.com/s/files/1/0512/9116/0767/products/guitarra-electrica-fender-vintera-r-60s-stratocaster-r-pau-ferro-fingerboard-ice-blue-metallic-the-music-site-1.png?v=1696262885" alt="" loading="lazy"></div>
+  <div class="info">
+    <div class="top"><span class="brand">Fender</span><span class="av">Disponible</span></div>
+    <h2>Fender Vintera 60s Stratocaster, Pau Ferro Fingerboard, Ice Blue Metallic</h2>
+    <div class="pr">$6,133,050 <span class="old">$6,814,500</span></div>
+    <details><summary>Descripcion</summary><p>Descripción Para músicos que desean el estilo y el sonido de la era dorada de Fender, hemos creado la Vintera 60 Stratocaster. Equipado con las codiciadas características que definieron la década, incluidos el perfil del mástil y los herrajes correctos de la época y las pastillas, esta guitarra...</p></details>
+    <div class="btns">
+      <a href="https://tmsmusic.co/products/guitarra-elec-fender-vintera-60s-strat-pf-0149983383" target="_blank" class="btn tms">Ver en TMS</a>
+      <a href="https://www.youtube.com/watch?v=dJQJKd9frI0" target="_blank" class="btn yt">&#9654; Video</a>
+    </div>
+  </div>
+</div>
+<div class="c">
+  <div class="img"><img src="https://cdn.shopify.com/s/files/1/0512/9116/0767/files/0171030742_13520867-8f66-4bc7-bf32-fc0b9a5eb91b.png?v=1765642980" alt="" loading="lazy"></div>
+  <div class="info">
+    <div class="top"><span class="brand">Fender</span><span class="av">Disponible</span></div>
+    <h2>Fender Ltd Am Perf Strat Tmbr Rw Hnyb 0171030742</h2>
+    <div class="pr">$5,880,500 <span class="old">$6,190,000</span></div>
+    <details><summary>Descripcion</summary><p>Limited Edition American Performer Timber Stratocaster® Carácter natural, sonido Fender y versatilidad moderna La Limited Edition American Performer Timber Stratocaster® , fabricada en Corona, California , combina el espíritu clásico de Fender® con detalles modernos que amplían su versatilidad y...</p></details>
+    <div class="btns">
+      <a href="https://tmsmusic.co/products/guitarra-electrica-fender-limited-american-performer-strat-timber-rw-hnyb-0171030742" target="_blank" class="btn tms">Ver en TMS</a>
+      <a href="https://www.youtube.com/watch?v=Rs72kWVwRlk" target="_blank" class="btn yt">&#9654; Video</a>
+    </div>
+  </div>
+</div>
+<div class="c">
+  <div class="img"><img src="https://cdn.shopify.com/s/files/1/0512/9116/0767/files/0140540501_fen_ins_frt_1_rr.png?v=1744224193" alt="" loading="lazy"></div>
+  <div class="info">
+    <div class="top"><span class="brand">Fender</span><span class="av">Disponible</span></div>
+    <h2>Fender Player Il Stratocaster Hssrw 0140540501 Blanco Rubio</h2>
+    <div class="pr">$5,579,000 </div>
+    <details><summary>Descripcion</summary><p>Guitarra Electrica Fender Player Il Stratocaster Hssrw 0140540501 blanco Rubio ESTILO Stratocaster® Player II MATERIAL MASTIL Arce,Acabado de uretano satinado en la parte posterior del mástil con cara del clavijero de uretano brillante RADIO 9,5&quot; (241 mm) TRASTES 22 ALMA Single Action, Head Adjust...</p></details>
+    <div class="btns">
+      <a href="https://tmsmusic.co/products/guitarra-elec-fender-ply-ii-strat-hssrw-0140540501" target="_blank" class="btn tms">Ver en TMS</a>
+      <a href="https://www.youtube.com/watch?v=t2E1rlU-ZlQ" target="_blank" class="btn yt">&#9654; Video</a>
+    </div>
+  </div>
+</div>
+<div class="c">
+  <div class="img"><img src="https://cdn.shopify.com/s/files/1/0512/9116/0767/products/guitarra-electrica-fender-player-stratocaster-r-maple-fingerboard-tidepool-0144502513-the-music-site-1.png?v=1696263106" alt="" loading="lazy"></div>
+  <div class="info">
+    <div class="top"><span class="brand">Fender</span><span class="av">Disponible</span></div>
+    <h2>Fender Player Stratocaster, Maple Fingerboard, Tidepool 0144502513</h2>
+    <div class="pr">$5,121,000 <span class="old">$5,690,000</span></div>
+    <details><summary>Descripcion</summary><p>Descripción El sonido inspirador de una Stratocaster es uno de los fundamentos de Fender. Con este clásico sonido de agudos campanilleantes, medios pronunciados y bajos robustos, combinados con una articulación cristalina, la Player Stratocaster está repleta de auténtico estilo y sensación Fender....</p></details>
+    <div class="btns">
+      <a href="https://tmsmusic.co/products/guitarra-elec-fender-ply-strat-mn-tpl-0144502513" target="_blank" class="btn tms">Ver en TMS</a>
+      <a href="https://www.youtube.com/watch?v=uyEcpfdHJb4" target="_blank" class="btn yt">&#9654; Video</a>
+    </div>
+  </div>
+</div>
+<div class="c">
+  <div class="img"><img src="https://cdn.shopify.com/s/files/1/0512/9116/0767/products/guitarra-electrica-fender-squier-40th-anniversary-stratocaster-r-vintage-edition-diapason-de-arce-golpeador-anodizado-dorado-verde-espuma-marina-satinada-0379511503-the-music-site-1.png?v=1696267956" alt="" loading="lazy"></div>
+  <div class="info">
+    <div class="top"><span class="brand">Fender</span><span class="av">Disponible</span></div>
+    <h2>Fender Squier 40th Anniversary Stratocaster Vintage Edition Satin Sea Foam Green 379510549</h2>
+    <div class="pr">$3,779,100 <span class="old">$4,199,000</span></div>
+    <details><summary>Descripcion</summary><p>El lugar de fabricación puede cambiar de acuerdo a las políticas del fabricante Descripcion Los primeros instrumentos que llevaron el nombre de Squier se introdujeron en 1982, respondiendo a la demanda de diseños genuinos de Fender® a precios accesibles. La colección Squier 40th Anniversary celebra...</p></details>
+    <div class="btns">
+      <a href="https://tmsmusic.co/products/guitarra-elec-fender-sq-40-strat-mn-ahw-bapg-sw2ts-0379511503" target="_blank" class="btn tms">Ver en TMS</a>
+      <a href="https://www.youtube.com/watch?v=NHue6XJSlKY" target="_blank" class="btn yt">&#9654; Video</a>
+    </div>
+  </div>
+</div>
+<div class="c">
+  <div class="img"><img src="https://cdn.shopify.com/s/files/1/0512/9116/0767/products/guitarra-electrica-fender-squier-contemporary-stratocaster-r-special-roasted-maple-fingerboard-black-pickguard-sky-burst-metallic0370230536-the-music-site-1.png?v=1696267134" alt="" loading="lazy"></div>
+  <div class="info">
+    <div class="top"><span class="brand">Fender</span><span class="av">Disponible</span></div>
+    <h2>Fender Squier Contemporary Stratocaster Special, Roasted Maple Fingerboard, Black Pickguard, Sky Burst Metallic0370230536</h2>
+    <div class="pr">$2,654,100 <span class="old">$2,949,000</span></div>
+    <details><summary>Descripcion</summary><p>El lugar de fabricación puede cambiar de acuerdo a las políticas del fabricante Descripción La Squier® Contemporary Stratocaster® Special trae características modernas y una estética atrevida a una plataforma icónica de Fender para satisfacer a los músicos más exigentes y atrevidos de hoy. En el...</p></details>
+    <div class="btns">
+      <a href="https://tmsmusic.co/products/guitarra-elec-fender-sq-cont-st-spcl-0370230536" target="_blank" class="btn tms">Ver en TMS</a>
+      <a href="https://www.youtube.com/watch?v=Hf1dB7PB0aQ" target="_blank" class="btn yt">&#9654; Video</a>
+    </div>
+  </div>
+</div>
+<div class="c">
+  <div class="img"><img src="https://cdn.shopify.com/s/files/1/0512/9116/0767/products/guitarra-electrica-fender-squier-stratocaster-r-especial-contemporanea-diapason-de-arce-tostado-golpeador-anodizado-plateado-negro-0370230506-the-music-site-1.png?v=1696267630" alt="" loading="lazy"></div>
+  <div class="info">
+    <div class="top"><span class="brand">Fender</span><span class="av">Disponible</span></div>
+    <h2>Fender Squier Stratocaster Especial Contemporánea, Negra 370230506</h2>
+    <div class="pr">$2,421,000 <span class="old">$2,690,000</span></div>
+    <details><summary>Descripcion</summary><p>El lugar de fabricación puede cambiar de acuerdo a las políticas del fabricante Descripción La Squier® Contemporary Stratocaster® Special trae características modernas y una estética atrevida a una plataforma icónica de Fender para satisfacer a los músicos más exigentes y atrevidos de hoy. En el...</p></details>
+    <div class="btns">
+      <a href="https://tmsmusic.co/products/guitarra-elec-fender-cont-strat-spcl-0370230506" target="_blank" class="btn tms">Ver en TMS</a>
+      <a href="https://www.youtube.com/watch?v=UK_dik3gLqk" target="_blank" class="btn yt">&#9654; Video</a>
+    </div>
+  </div>
+</div>
+<div class="c">
+  <div class="img"><img src="https://cdn.shopify.com/s/files/1/0512/9116/0767/products/guitarra-electrica-fender-squier-contemporary-stratocaster-r-special-ht-laurel-fingerboard-black-pickguard-pearl-white-0370235523-the-music-site-1.png?v=1696267133" alt="" loading="lazy"></div>
+  <div class="info">
+    <div class="top"><span class="brand">Fender</span><span class="av">Disponible</span></div>
+    <h2>Fender Squier Contemporary Stratocaster Special Ht, Laurel Fingerboard, Black Pickguard, Pearl White 0370235523</h2>
+    <div class="pr">$2,421,000 <span class="old">$2,690,000</span></div>
+    <details><summary>Descripcion</summary><p>El lugar de fabricación puede cambiar de acuerdo a las políticas del fabricante Descripción La Squier® Contemporary Stratocaster® Special HT trae características modernas y una estética atrevida a una plataforma icónica de Fender para satisfacer a los músicos más exigentes y atrevidos de hoy. En el...</p></details>
+    <div class="btns">
+      <a href="https://tmsmusic.co/products/guitarra-elec-fender-sq-cont-st-spcl-0370235523" target="_blank" class="btn tms">Ver en TMS</a>
+      <a href="https://www.youtube.com/watch?v=yoapCBw-ddw" target="_blank" class="btn yt">&#9654; Video</a>
+    </div>
+  </div>
+</div>
+<div class="c">
+  <div class="img"><img src="https://cdn.shopify.com/s/files/1/0512/9116/0767/products/guitarra-electrica-fender-squier-affinity-seriestm-stratocaster-r-diapason-de-laurel-golpeador-blanco-rayos-de-sol-de-3-colores-0378000500-the-music-site-1.png?v=1696267581" alt="" loading="lazy"></div>
+  <div class="info">
+    <div class="top"><span class="brand">Fender</span><span class="av">Disponible</span></div>
+    <h2>Fender Squier Affinity Stratocaster Sunburst 378000500</h2>
+    <div class="pr">$1,700,500 <span class="old">$1,790,000</span></div>
+    <details><summary>Descripcion</summary><p>El lugar de fabricación puede cambiar de acuerdo a las políticas del fabricante Descripcion Una excelente puerta de entrada a la tradicional familia Fender®, la Stratocaster® Squier® Affinity Series™ ofrece un diseño legendario y un tono por excelencia para el aspirante a héroe de la guitarra de...</p></details>
+    <div class="btns">
+      <a href="https://tmsmusic.co/products/guitarra-electrica-fender-squier-affinity-series™-stratocaster®-diapason-de-laurel-golpeador-blanco-rayos-de-sol-de-3-colores-0378000500" target="_blank" class="btn tms">Ver en TMS</a>
+      <a href="https://www.youtube.com/watch?v=2FexAOm5w-o" target="_blank" class="btn yt">&#9654; Video</a>
+    </div>
+  </div>
+</div>
+<div class="c">
+  <div class="img"><img src="https://cdn.shopify.com/s/files/1/0512/9116/0767/products/guitarra-electrica-fender-stratocaster-r-pack-diapason-de-laurel-brown-sunburst-funda-10g-120v-0371823032-the-music-site-1.png?v=1696265225" alt="" loading="lazy"></div>
+  <div class="info">
+    <div class="top"><span class="brand">Fender</span><span class="av">Disponible</span></div>
+    <h2>Fender Stratocaster Kit Sunburst 371823032</h2>
+    <div class="pr">$1,611,000 <span class="old">$1,790,000</span></div>
+    <details><summary>Descripcion</summary><p>Descripción Una elección perfecta para principiantes, la Squier Strat Pack tiene todo lo que necesitas para empezar a tocar nada más sacarlo de la caja. La Stratocaster es ideal para músicos principiantes y proporciona una sensación cómoda al tocar. Incluye un cuerpo liviano, un puente de trémolo...</p></details>
+    <div class="btns">
+      <a href="https://tmsmusic.co/products/guitarra-elec-fender-pk-strat-gb-10g-0371823032-3-4" target="_blank" class="btn tms">Ver en TMS</a>
+      <a href="https://www.youtube.com/watch?v=z9kZsfZNMfI" target="_blank" class="btn yt">&#9654; Video</a>
+    </div>
+  </div>
+</div>
+<div class="c">
+  <div class="img"><img src="https://cdn.shopify.com/s/files/1/0512/9116/0767/files/0378000557_sqr_ins_frt_1_rr.png?v=1740408291" alt="" loading="lazy"></div>
+  <div class="info">
+    <div class="top"><span class="brand">Fender</span><span class="av">Disponible</span></div>
+    <h2>Fender Fsr Affinity Ltd Stratocaster 0378000557</h2>
+    <div class="pr">$1,557,050 <span class="old">$1,639,000</span></div>
+    <details><summary>Descripcion</summary><p>Guitarra Eléctrica Fender FSR Affinity LTD Stratocaster 0378000557 PASTILLA PUENTE Ceramic Single-Coil PASTILLA MEDIA Ceramic Single-Coil PASTILLA MÁSTIL Ceramic Single-Coil AJUSTE PASTILLAS SSS CONTROLES Master Volumen, Tone 1. (Neck/Middle Pickups), Tone 2. (Bridge Pickup) CONMUTACIÓN 5-Position...</p></details>
+    <div class="btns">
+      <a href="https://tmsmusic.co/products/guitarra-electrica-fender-fsr-aff-ltd-strat-0378000557" target="_blank" class="btn tms">Ver en TMS</a>
+      <a href="https://www.youtube.com/watch?v=2FexAOm5w-o" target="_blank" class="btn yt">&#9654; Video</a>
+    </div>
+  </div>
+</div>
+<div class="c">
+  <div class="img"><img src="https://cdn.shopify.com/s/files/1/0512/9116/0767/products/guitarra-electrica-fender-squier-affinity-seriestm-stratocaster-r-diapason-de-arce-golpeador-blanco-negro-0378002506-the-music-site-1.png?v=1696267580" alt="" loading="lazy"></div>
+  <div class="info">
+    <div class="top"><span class="brand">Fender</span><span class="av">Disponible</span></div>
+    <h2>Fender Squier Affinity Stratocaster Negro 378002506</h2>
+    <div class="pr">$1,557,050 <span class="old">$1,639,000</span></div>
+    <details><summary>Descripcion</summary><p>El lugar de fabricación puede cambiar de acuerdo a las políticas del fabricante Una excelente puerta de entrada a la tradicional familia Fender®, la Stratocaster® Squier® Affinity Series™ ofrece un diseño legendario y un tono por excelencia para el aspirante a héroe de la guitarra de hoy. Esta...</p></details>
+    <div class="btns">
+      <a href="https://tmsmusic.co/products/guitarra-elec-fender-aff-strat-mn-blk-0378002506" target="_blank" class="btn tms">Ver en TMS</a>
+      <a href="https://www.youtube.com/watch?v=2FexAOm5w-o" target="_blank" class="btn yt">&#9654; Video</a>
+    </div>
+  </div>
+</div>
+<div class="c">
+  <div class="img"><img src="https://cdn.shopify.com/s/files/1/0512/9116/0767/products/guitarra-electrica-squier-fender-affinity-seriestm-stratocaster-r-diapason-de-arce-golpeador-negro-azul-lake-placid-0378003502-the-music-site-1.png?v=1696267581" alt="" loading="lazy"></div>
+  <div class="info">
+    <div class="top"><span class="brand">Fender</span><span class="av">Disponible</span></div>
+    <h2>Squier Fender Affinity Stratocaster Lake Placid Blue 378003502</h2>
+    <div class="pr">$1,510,500 <span class="old">$1,590,000</span></div>
+    <details><summary>Descripcion</summary><p>El lugar de fabricación puede cambiar de acuerdo a las políticas del fabricante Descripcion Una excelente puerta de entrada a la tradicional familia Fender®, la Stratocaster® Squier® Affinity Series™ ofrece un diseño legendario y un tono por excelencia para el aspirante a héroe de la guitarra de...</p></details>
+    <div class="btns">
+      <a href="https://tmsmusic.co/products/guitarra-elec-fender-aff-strat-mn-lpb-0378003502" target="_blank" class="btn tms">Ver en TMS</a>
+      <a href="https://www.youtube.com/watch?v=2FexAOm5w-o" target="_blank" class="btn yt">&#9654; Video</a>
+    </div>
+  </div>
+</div>
+<div class="c">
+  <div class="img"><img src="https://cdn.shopify.com/s/files/1/0512/9116/0767/products/guitarra-elec-fender-squier-mini-stratocaster-r-laurel-fingerboard-black-0370121506-the-music-site.png?v=1696261839" alt="" loading="lazy"></div>
+  <div class="info">
+    <div class="top"><span class="brand">Fender</span><span class="av">Disponible</span></div>
+    <h2>Fender Squier Mini Stratocaster, Laurel Fingerboard, Black 0370121506</h2>
+    <div class="pr">$1,133,100 <span class="old">$1,259,000</span></div>
+    <details><summary>Descripcion</summary><p>El lugar de fabricación puede cambiar de acuerdo a las políticas del fabricante Descripción Una Strat en miniatura con un sonido gigante, la Mini es la versión 3/4 (longitud de escala 22,75&quot;) de la Bullet® Strat. Es una fantástica primera guitarra para guitarristas de todas las edades o para...</p></details>
+    <div class="btns">
+      <a href="https://tmsmusic.co/products/guitarra-elec-fender-sq-mini-strat-v2-0370121506" target="_blank" class="btn tms">Ver en TMS</a>
+      <a href="https://www.youtube.com/watch?v=w7_u5n3s1m8" target="_blank" class="btn yt">&#9654; Video</a>
+    </div>
+  </div>
+</div>
+<div class="c">
+  <div class="img"><img src="https://cdn.shopify.com/s/files/1/0512/9116/0767/products/guitarra-elec-fender-squier-bullet-r-stratocaster-r-ht-laurel-fingerboard-brown-sunburst-the-music-site.png?v=1696261839" alt="" loading="lazy"></div>
+  <div class="info">
+    <div class="top"><span class="brand">Fender</span><span class="av">Disponible</span></div>
+    <h2>Fender Squier Bullet Stratocaster Ht, Laurel Fingerboard, Brown Sunburst</h2>
+    <div class="pr">$1,124,100 <span class="old">$1,249,000</span></div>
+    <details><summary>Descripcion</summary><p>El lugar de fabricación puede cambiar de acuerdo a las políticas del fabricante Descripción La Bullet® Strat® con palanca de vibrato es una guitarra simple, asequible y práctica, diseñada para principiantes y estudiantes. Una elección perfecta como primera guitarra sin importar tu nivel ni el...</p></details>
+    <div class="btns">
+      <a href="https://tmsmusic.co/products/guitarra-elec-fender-sq-bullet-st-frd-0371001540" target="_blank" class="btn tms">Ver en TMS</a>
+      <a href="https://www.youtube.com/watch?v=dsD03vmVe30" target="_blank" class="btn yt">&#9654; Video</a>
+    </div>
+  </div>
+</div>
+<div class="c">
+  <div class="img"><img src="https://cdn.shopify.com/s/files/1/0512/9116/0767/products/guitarra-electrica-fender-squier-bullet-r-stratocaster-r-ht-laurel-fingerboard-brown-sunburst-0371001532-the-music-site-1.png?v=1696263060" alt="" loading="lazy"></div>
+  <div class="info">
+    <div class="top"><span class="brand">Fender</span><span class="av">Disponible</span></div>
+    <h2>Fender Squier Bullet Stratocaster Ht, Laurel Fingerboard, Brown Sunburst 0371001532</h2>
+    <div class="pr">$1,071,000 <span class="old">$1,190,000</span></div>
+    <details><summary>Descripcion</summary><p>El lugar de fabricación puede cambiar de acuerdo a las políticas del fabricante Descripción La Bullet® Strat® con palanca de vibrato es una guitarra simple, asequible y práctica, específicamente para principiantes y estudiantes. Una elección perfecta como primera guitarra sin importar tu nivel ni...</p></details>
+    <div class="btns">
+      <a href="https://tmsmusic.co/products/guitarra-fender-squier-bullet-3120" target="_blank" class="btn tms">Ver en TMS</a>
+      <a href="https://www.youtube.com/watch?v=dsD03vmVe30" target="_blank" class="btn yt">&#9654; Video</a>
+    </div>
+  </div>
+</div>
+<div class="c">
+  <div class="img"><img src="https://cdn.shopify.com/s/files/1/0512/9116/0767/products/guitarra-electrica-fender-squier-bullet-r-stratocaster-r-ht-laurel-fingerboard-black-0371001506-the-music-site-1.png?v=1696263060" alt="" loading="lazy"></div>
+  <div class="info">
+    <div class="top"><span class="brand">Fender</span><span class="av">Disponible</span></div>
+    <h2>Fender Squier Bullet Stratocaster Ht, Laurel Fingerboard, Black 0371001506</h2>
+    <div class="pr">$1,071,000 <span class="old">$1,190,000</span></div>
+    <details><summary>Descripcion</summary><p>El lugar de fabricación puede cambiar de acuerdo a las políticas del fabricante Descripción La Bullet® Strat® con palanca de vibrato es una guitarra simple, asequible y práctica, específicamente para principiantes y estudiantes. Una elección perfecta como primera guitarra sin importar tu nivel ni...</p></details>
+    <div class="btns">
+      <a href="https://tmsmusic.co/products/guitarra-elec-fender-sq-bullet-st-htblk-0371001506" target="_blank" class="btn tms">Ver en TMS</a>
+      <a href="https://www.youtube.com/watch?v=dsD03vmVe30" target="_blank" class="btn yt">&#9654; Video</a>
+    </div>
+  </div>
+</div>
+<div class="c">
+  <div class="img"><img src="https://cdn.shopify.com/s/files/1/0512/9116/0767/products/guitarra-electrica-mc-art-19st-mini-strato-the-music-site-1.png?v=1708732056" alt="" loading="lazy"></div>
+  <div class="info">
+    <div class="top"><span class="brand">Mc-Art</span><span class="av">Disponible</span></div>
+    <h2>Mc-art 19st Mini Strato</h2>
+    <div class="pr">$436,050 <span class="old">$459,000</span></div>
+    <details><summary>Descripcion</summary><p>Guitarra Eléctrica Mc-Art 19St Mini Strato Guitarra Eléctrica Mc Art 19ST Mini strato para niños, de 1 control de volumen para un micrófono doble ,aunque es una replica de una guitarra strato sigue siendo una guitarra para niños CARACTERISTICAS REFERENCIA 19ST MINI STRATO MARCA MC-ART COLOR NEGRA...</p></details>
+    <div class="btns">
+      <a href="https://tmsmusic.co/products/guitarra-electrica-mc-art-19-mini-strato" target="_blank" class="btn tms">Ver en TMS</a>
+      <a href="https://www.youtube.com/watch?v=zXzQSPFPDNU" target="_blank" class="btn yt">&#9654; Video</a>
+    </div>
+  </div>
+</div>
+</div>
+</body>
+</html>
